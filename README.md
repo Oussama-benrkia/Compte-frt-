@@ -1,6 +1,6 @@
-# Projet Vite + React avec Tailwind CSS , ShadCN et appolo
+# Projet Vite + React avec Tailwind CSS , ShadCN et appollo
 
-Ce projet est une application web rapide et moderne construite avec **Vite**, **React**, **Tailwind CSS**,  **ShadCN** et  **Appolo**.
+Ce projet est une application web rapide et moderne construite avec **Vite**, **React**, **Tailwind CSS**,  **ShadCN** et  **Appollo**.
 
 ## Video
 
@@ -59,5 +59,4 @@ Le projet sera accessible à l'adresse suivante : [http://localhost:3000](http:/
 - `npm run build` : Compile le projet pour la production.
 - `npm run preview` : Prévisualise la version compilée en local.
 
-**Amusez-vous bien en construisant votre application !** 🚀
 
