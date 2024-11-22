@@ -12,10 +12,8 @@ export default function AddAccountPopup({ isOpen, onClose, onAdd }) {
   const handleSubmit = (e) => {
     e.preventDefault()
     const newCompte = {
-      id: Date.now().toString(),
       solde: parseFloat(solde),
       type,
-      dateCreation: new Date().toISOString().split('T')[0]
     }
     onAdd(newCompte)
     setSolde('')
