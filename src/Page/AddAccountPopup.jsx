@@ -8,7 +8,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 export default function AddAccountPopup({ isOpen, onClose, onAdd }) {
   const [solde, setSolde] = useState('')
   const [type, setType] = useState('COURANT')
-
   const handleSubmit = (e) => {
     e.preventDefault()
     const newCompte = {
@@ -19,7 +18,6 @@ export default function AddAccountPopup({ isOpen, onClose, onAdd }) {
     setSolde('')
     setType('COURANT')
   }
-
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent>
