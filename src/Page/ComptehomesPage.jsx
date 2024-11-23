@@ -37,7 +37,6 @@ export default function ComptehomesPage() {
     update(cache, { data: { deleteCompte } }) {
       if (deleteCompte) {
         refetch();
-        //refetch_solde();
       }
     },
     onError: (err) => {
@@ -50,7 +49,6 @@ export default function ComptehomesPage() {
     update({ data: { saveCompte } }) {
       if (saveCompte) {
         refetch();
-       // refetch_solde();
       }
     },
     onError: (err) => {
@@ -103,14 +101,10 @@ export default function ComptehomesPage() {
     }
     setIsFilterDialogOpen(false);
   };
-
   const filteredComptes = comptes.filter(compte =>
     (filterOptions.type === 'TOUS' || compte.type === filterOptions.type) &&
     (!filterOptions.filterBySolde || compte.solde >= parseFloat(filterOptions.solde || '0'))
   );
-
-
-
   return (
     <div className="container mx-auto p-4 pb-24">
       <h1 className="text-3xl font-bold mb-6 text-center">Liste des Comptes</h1>
