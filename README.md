@@ -1,4 +1,4 @@
-# Projet Vite + React avec Tailwind CSS , ShadCN et appollo
+# Projet Vite + React avec Tailwind CSS , ShadCN et Appollo
 
 Ce projet est une application web rapide et moderne construite avec **Vite**, **React**, **Tailwind CSS**,  **ShadCN** et  **Appollo**.
 
